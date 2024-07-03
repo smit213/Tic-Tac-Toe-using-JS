@@ -57,10 +57,11 @@ const checkWinner = () =>{
                 showWinner(pos1val);
             }
         }
-        if (!winnerDeclared) {
+        
+    }
+    if (!winnerDeclared) {
             checkDraw();
         }
-    }
 }
 const checkDraw = () => {
     let allFilled = true;
